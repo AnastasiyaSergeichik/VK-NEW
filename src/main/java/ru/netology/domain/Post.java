@@ -101,7 +101,7 @@ public class Post {
     }
 
     public String getPostType() {
-       return postType;
+        return postType;
     }
 
 
@@ -145,7 +145,7 @@ public class Post {
     }
 
     public boolean isFavorite() {
-       return isFavorite;
+        return isFavorite;
     }
 
 
@@ -186,6 +186,7 @@ public class Post {
     public void setRepostInfo(RepostInfo repostInfo) {
         this.repostInfo = repostInfo;
     }
+
     public PostSource getPostSource() {
         return postSource;
     }
